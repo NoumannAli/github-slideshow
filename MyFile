@@ -1,1 +1,20 @@
-#My first file on github
+
+#Bmi_calculator
+def bmii_calculator():
+
+
+
+    name = (input("Enter you name"))
+    weight_kg = int(input("Enter Your weight"))
+    height_cm = int(input("Enter your height"))
+    bmi = (weight_kg / height_cm)
+
+
+    if bmi <  27:
+        return name + " is not over weight"
+    else:
+        return name + " is over weight"
+
+
+z = bmii_calculator()
+print(z)
